@@ -5,13 +5,13 @@
 }
 
 .main_box{
-    background: url(photo.jpg);
+    background: url(image1.jpeg);
     height:100vh;
     background-size: cover;
 }
 
 .btn_one i{ 
-    color:white;
+    color:rgb(19, 19, 19);
     font-size: 30px;
     font-weight: 700;
     position:absolute;
@@ -26,7 +26,7 @@
     left:-350px;
     height:100vh;
     width:300px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 6px rgba(255 , 255, 255, 0.5);
     transition:0.4s linear;
 }
@@ -42,14 +42,14 @@
 .sidebar_menu .logo a{
     position:absolute;
     left:57px;
-    color:white;    
+    color:rgb(255, 255, 255);    
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;   
 }
 
 .sidebar_menu .btn_two i{
-    color:grey;
+    color:black;
     font-size:25px;
     line-height:80px;
     position:absolute;
@@ -60,7 +60,7 @@
 }
 
 .sidebar_menu .menu{
-    color:white;
+    color:rgb(255, 255, 255);    
     position:absolute;
     width:100%;
     top:80px;
@@ -117,10 +117,10 @@
 #check:checked ~ .sidebar_menu{
     left:0;
 }
-/* 
+
 #check:checked ~ .btn_one{
     opacity:0; 
-} */
+}
 
 .btn_one{
     z-index: 11;

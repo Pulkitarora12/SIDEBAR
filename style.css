@@ -91,6 +91,7 @@
     color:white;
     opacity:0.5;
     padding:2px; 
+    margin: 5%;
 }
 
 #check{
@@ -129,3 +130,4 @@
 #check:checked ~ .sidebar_menu .btn_two i{
     opacity:1;
 }
+
